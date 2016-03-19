@@ -1,20 +1,21 @@
 {
-  "name": "create-repository",
-  "version": "1.3.0",
-  "description": "Easily set up a new github repository. Reads the name/description from the package.json file if it's present. Sets origin upstream if it's not already set.",
+  "name": "create-repo",
+  "version": "1.4.0",
+  "description": "creates github repo; reads name/description from package.json, sets origin upstream.",
+  "main": "index.js",
   "dependencies": {
-    "ghauth": "^2.0.0",
-    "github": "^0.2.3",
-    "minimist": "^1.1.0"
+    "ghauth": "^3.2.0",
+    "github": "^0.2.4",
+    "minimist": "^1.2.0"
   },
-  "devDependencies": {},
-  "bin": {
-    "create-repository": "index.js"
-  },
+  "bin": "index.js",
   "author": "Tobias Baunbæk <freeall@gmail.com>",
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/freeall/create-repository.git"
-  }
+    "url": "https://github.com/zacanger/create-repository.git"
+  },
+  "contributors": [
+    "Zac Anger <zac@zacanger.com> (http://zacanger.com)"
+  ]
 }

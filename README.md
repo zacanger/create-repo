@@ -1,25 +1,14 @@
-# create-repository
+# create-repo
 
-Easily set up a new github repository. Reads the name/description from the package.json file if it's present. Sets origin upstream if it's not already set.
+## Set up a new GitHub repo.
 
-```
-npm install create-repository -g
-```
+* Reads the name and description from your `package.json`, if present.
+* Sets origin upstream, if not already set.
 
-## Usage
+## Installation & Usage
 
-`create-repository` will try to read `package.json` and use the name and description properties.
+* `npm i -g create-repo`
+* `create-repo` will read your `package.json` and use the name and description.
+* `create-repo --name some-name --description 'some description'`; you can pass values to use, instead.
 
-```
-$ create-repository
-```
-
-You can also pass values for name and description.
-
-```
-$ create-repository --name my-new-project --description "That's all I have to say about that"
-```
-
-## License
-
-MIT
+* [License: MIT](LICENSE.md)
