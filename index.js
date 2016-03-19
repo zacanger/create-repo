@@ -1,14 +1,15 @@
 #!/usr/bin/env node
 
+'use strict'
+
 const
-  ghauth   = require('ghauth')
+  path     = require('path')
 , GH       = require('github')
-, path     = require('path')
+, ghauth   = require('ghauth')
 , minimist = require('minimist')
 , exec     = require('child_process').exec
-
-var github   = new GH({
-  version:'3.0.0'
+, github   = new GH({
+  version: '3.0.0'
 , headers: {'User-Agent' : 'create-repo'}
 })
 
@@ -19,7 +20,7 @@ try {
   console.error(err)
 }
 
-var argv = minimist(process.argv, {
+const argv = minimist(process.argv, {
   string : ['name', 'description']
 , alias  : {
     name        : 'n'

@@ -1,21 +1,38 @@
 {
   "name": "create-repo",
-  "version": "1.4.0",
-  "description": "creates github repo; reads name/description from package.json, sets origin upstream.",
+  "version": "1.5.0",
+  "description": "Creates GH repo using name/description from package.json, from init ti push.",
   "main": "index.js",
+  "preferGlobal": true,
+  "bin": "index.js",
+  "scripts": {
+    "start": "node index"
+  },
+  "keywords": [
+    "github",
+    "repo",
+    "repository",
+    "git",
+    "automatic",
+    "automagic"
+  ],
+  "author": "Tobias Baunbæk <freeall@gmail.com>",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/zacanger/create-repo.git"
+  },
   "dependencies": {
     "ghauth": "^3.2.0",
     "github": "^0.2.4",
     "minimist": "^1.2.0"
   },
-  "bin": "index.js",
-  "author": "Tobias Baunbæk <freeall@gmail.com>",
-  "license": "MIT",
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/zacanger/create-repository.git"
+  "bugs": {
+    "url": "https://github.com/zacanger/create-repo/issues"
   },
+  "homepage": "https://github.com/zacanger/create-repo#readme",
   "contributors": [
     "Zac Anger <zac@zacanger.com> (http://zacanger.com)"
   ]
 }
+
