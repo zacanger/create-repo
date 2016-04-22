@@ -14,6 +14,7 @@ const
 })
 
 var pkg = {}
+
 try {
   pkg = require(path.resolve('package.json'))
 } catch(err){

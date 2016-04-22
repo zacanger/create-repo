@@ -1,6 +1,6 @@
 {
   "name": "create-repo",
-  "version": "1.5.2",
+  "version": "1.5.3",
   "description": "Creates GH repo using name/description from package.json, from init to push.",
   "main": "index.js",
   "preferGlobal": true,
