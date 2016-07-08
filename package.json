@@ -1,38 +1,38 @@
 {
   "name": "create-repo",
-  "version": "1.5.3",
   "description": "Creates GH repo using name/description from package.json, from init to push.",
+  "version": "1.5.4",
+  "author": {
+    "name": "Zac Anger",
+    "email": "zac@zacanger.com",
+    "url": "http://zacanger.com"
+  },
+  "license": "MIT",
   "main": "index.js",
   "preferGlobal": true,
   "bin": "index.js",
   "scripts": {
     "start": "node index"
   },
-  "keywords": [
-    "github",
-    "repo",
-    "repository",
-    "git",
-    "automatic",
-    "automagic"
-  ],
-  "author": "Tobias Baunbæk <freeall@gmail.com>",
-  "license": "MIT",
+  "homepage": "https://github.com/zacanger/create-repo#readme",
   "repository": {
     "type": "git",
     "url": "https://github.com/zacanger/create-repo.git"
   },
+  "bugs": {
+    "url": "https://github.com/zacanger/create-repo/issues"
+  },
+  "keywords": [
+    "automagic",
+    "automatic",
+    "git",
+    "github",
+    "repo",
+    "repository"
+  ],
   "dependencies": {
     "ghauth": "^3.2.0",
     "github": "^0.2.4",
     "minimist": "^1.2.0"
-  },
-  "bugs": {
-    "url": "https://github.com/zacanger/create-repo/issues"
-  },
-  "homepage": "https://github.com/zacanger/create-repo#readme",
-  "contributors": [
-    "Zac Anger <zac@zacanger.com> (http://zacanger.com)"
-  ]
+  }
 }
-
