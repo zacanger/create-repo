@@ -1,5 +1,6 @@
 {
   "name": "create-repo",
+  "private": true,
   "description": "Creates GH repo using name/description from package.json, from init to push.",
   "version": "1.5.4",
   "author": {

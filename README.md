@@ -1,6 +1,8 @@
 # create-repo
 
-[create-repo on npm](http://npm.im/create-repo)
+**IMPORTANT** I've transfered this package to someone else on
+npm. You can still use this deprecated module by cloning the repo
+and starting from there.
 
 ## Set up a new GitHub repo.
 
@@ -13,11 +15,8 @@
 
 ## Installation & Usage
 
-* `npm i -g create-repo`
 * `create-repo` will read your `package.json` and use that name and description.
 * You can pass values to use, instead: `create-repo --name some-name --description 'some description'`.
 
-* [Forked from this.](https://www.npmjs.com/package/create-repository)
 * [License: MIT](LICENSE.md)
 * Issues and PRs very welcome.
-
